@@ -190,13 +190,12 @@
 
         layer_hyper {
             bindings = <
-       &none            &none            &none        &none            &none                                                                        &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none   &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none   &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none   &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none   &none        &none   &none  &none   &none   &none   &none    &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &kp LG(LC(LEFT)) &kp LG(LC(RIGHT))    &none   &none  &none   &none   &none   &none            &none   &none   &none   &none  &none
-       &kp LG(LC(LEFT))     &kp LG(LC(RIGHT))
+       &none            &none            &none        &none            &none                                                                                  &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &kp LC(LS(C))    &kp LC(LS(V))     &none   &none  &none   &none   &none   &none   &none         &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &kp LG(LC(LEFT)) &kp LG(LC(RIGHT))         &none  &none  &none    &none   &none   &none                 &none   &none   &none   &none  &none
             >;
         };
     };
