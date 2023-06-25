@@ -131,7 +131,8 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <175>;
-            global-quick-tap-ms = <150>;         // requires PR #1387
+            global-quick-tap;
+            //global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
             hold-trigger-on-release;             // requires PR #1423
         };
@@ -145,7 +146,8 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick_tap_ms = <175>;
-            global-quick-tap-ms = <150>;         // requires PR #1387
+            global-quick-tap;
+            //global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
             hold-trigger-on-release;             // requires PR #1423
         };
