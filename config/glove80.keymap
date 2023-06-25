@@ -27,6 +27,7 @@
 #define RIGHT_HAND_KEYS  5  6  7  8  9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 52 53 54 55 56 57 63 64 65 66 67
 #define THUMB_KEYS 68 69 72 73 76 77 70 71 74 75 77 79
 #define HM_TAPPING_TERM_FAST 150
+#define HYPER 3
 
 / {
     /* Glove80 system behavior & macros */
@@ -156,12 +157,12 @@
 
         base_layer {
             bindings = <
-     &kp F1    &kp F2   &kp F3    &kp F4     &kp F5                                                                                  &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
-  &kp EQUAL    &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                                                                  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-    &kp TAB     &kp Q    &kp W     &kp E      &kp R   &kp T                                                                   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-    &kp ESC     &hm_shift_l LGUI A    &hm_shift_l LALT S     &hm_shift_l LCTRL D      &hm_shift_l LSHFT F   &kp G                     &kp H   &hm_shift_r RSHFT J      &hm_shift_r RCTRL K     &hm_shift_r RALT L  &hm_shift_r RGUI SEMI    &kp SQT
-  &kp GRAVE     &kp Z    &kp X     &kp C      &kp V   &kp B  &kp LSHFT  &kp LCTRL    &lower  &kp LGUI  &kp RCTRL  &kp RSHFT   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
- &magic 2 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT           &kp BSPC    &kp TAB  &kp LALT  &kp RALT    &kp RET  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT  &kp PG_DN
+     &kp F1    &kp F2   &kp F3    &kp F4     &kp F5                                                                                  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10
+     &kp EQUAL &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                                                                  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0  &kp MINUS
+     &kp TAB   &kp Q    &kp W     &kp E      &kp R   &kp T                                                                   &kp Y   &kp U   &kp I     &kp O     &kp P   &kp BSLH
+     &kp ESC   &hm_shift_l LGUI A    &hm_shift_l LALT S     &hm_shift_l LCTRL D      &hm_shift_l LSHFT F   &kp G                     &kp H   &hm_shift_r RSHFT J      &hm_shift_r RCTRL K     &hm_shift_r RALT L  &hm_shift_r RGUI SEMI    &kp SQT
+     &kp GRAVE &kp Z    &kp X     &kp C      &kp V   &kp B        &sl HYPER  &kp LCTRL    &lower  &kp LGUI  &kp RCTRL &sl HYPER     &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
+     &magic 2 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT           &kp BSPC    &kp TAB  &kp LALT  &kp RALT    &kp RET  &kp SPACE              &kp DOWN   &kp UP  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -187,5 +188,15 @@
             >;
         };
 
+        layer_hyper {
+            bindings = <
+       &none            &none            &none        &none            &none                                                                        &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none   &none                                                        &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none   &none                                                        &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none   &none                                                        &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &none            &none   &none        &none   &none  &none   &none   &none   &none    &none   &none   &none   &none   &none  &none
+       &none            &none            &none        &kp LG(LC(LEFT)) &kp LG(LC(RIGHT))    &none   &none  &none   &none   &none   &none            &none   &none   &none   &none  &none
+       &kp LG(LC(LEFT))     &kp LG(LC(RIGHT))
+            >;
     };
 };
