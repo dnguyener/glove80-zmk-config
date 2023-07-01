@@ -95,7 +95,6 @@
     };
 
     /* Custom Defined Behaviors */
-    
 
     homey_left: home_row_mods_left_hand {
         compatible = "zmk,behavior-hold-tap";
@@ -130,11 +129,12 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "balanced";
-            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+            tapping-term-ms = <280>;
             quick_tap_ms = <175>;
+            global-quick-tap;
             //global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
-           // hold-trigger-on-release;             // requires PR #1423
+            hold-trigger-on-release;             // requires PR #1423
         };
 
         hm_shift_r: hm_shift_r {
@@ -144,11 +144,12 @@
             bindings = <&kp>, <&kp>;
 
             flavor = "balanced";
-            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+            tapping-term-ms = <280>;
             quick_tap_ms = <175>;
+            global-quick-tap;
             //global-quick-tap-ms = <150>;         // requires PR #1387
             hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
-            //hold-trigger-on-release;             // requires PR #1423
+            hold-trigger-on-release;             // requires PR #1423
         };
     /* Automatically generated keymap */
     keymap {
