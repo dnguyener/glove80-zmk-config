@@ -134,7 +134,7 @@
         //global-quick-tap;
         //global-quick-tap-ms = <150>;         // requires PR #1387
         hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
-        //hold-trigger-on-release;             // requires PR #1423
+        hold-trigger-on-release;             // requires PR #1423
     };
 
     hm_shift_r: hm_shift_r {
@@ -149,7 +149,7 @@
         //global-quick-tap;
         //global-quick-tap-ms = <150>;         // requires PR #1387
         hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
-        //hold-trigger-on-release;             // requires PR #1423
+        hold-trigger-on-release;             // requires PR #1423
     };
     /* Automatically generated keymap */
     keymap {
