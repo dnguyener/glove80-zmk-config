@@ -129,12 +129,12 @@
         bindings = <&kp>, <&kp>;
 
         flavor = "balanced";
-        tapping-term-ms = <280>;
+        tapping-term-ms = <125>;
         quick_tap_ms = <175>;
         //global-quick-tap;
         //global-quick-tap-ms = <150>;         // requires PR #1387
         hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
-        hold-trigger-on-release;             // requires PR #1423
+        //hold-trigger-on-release;             // requires PR #1423
     };
 
     hm_shift_r: hm_shift_r {
@@ -144,12 +144,12 @@
         bindings = <&kp>, <&kp>;
 
         flavor = "balanced";
-        tapping-term-ms = <280>;
+        tapping-term-ms = <125>;
         quick_tap_ms = <175>;
         //global-quick-tap;
         //global-quick-tap-ms = <150>;         // requires PR #1387
         hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
-        hold-trigger-on-release;             // requires PR #1423
+        //hold-trigger-on-release;             // requires PR #1423
     };
     /* Automatically generated keymap */
     keymap {
@@ -194,8 +194,8 @@
        &none            &none            &none        &none            &none                                                                                  &none   &none   &none   &none  &none
        &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
        &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &kp LC(LS(C))    &kp LC(LS(V))     &none   &none  &none   &none   &none   &none   &none         &none   &none   &none   &none   &none  &none
+       &none            &none            &kp LC(LS(LA(PRCNT)))        &kp LC(LS(LA(DQT)))            &none             &none                          &kp LC(LS(LEFT))   &kp LC(LS(DOWN))   &kp LC(LS(UP))   &kp (LC(LS(RIGHT)))   &none  &none
+       &none            &kp LC(LS(Z))    &none        &kp LC(LS(C))    &kp LC(LS(V))     &none   &none  &none   &none   &none   &none   &none         &none   &none   &none   &none   &none  &none
        &none            &none            &none        &kp LG(LC(LEFT)) &kp LG(LC(RIGHT))         &kp(LC(B))  &none  &none    &none   &none   &kp(LC(B))                 &none   &none   &none   &none  &none
             >;
         };
