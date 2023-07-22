@@ -129,7 +129,7 @@
         bindings = <&kp>, <&kp>;
 
         flavor = "balanced";
-        tapping-term-ms = <125>;
+        tapping-term-ms = <150>;
         quick_tap_ms = <175>;
         //global-quick-tap;
         //global-quick-tap-ms = <150>;         // requires PR #1387
@@ -144,7 +144,7 @@
         bindings = <&kp>, <&kp>;
 
         flavor = "balanced";
-        tapping-term-ms = <125>;
+        tapping-term-ms = <150>;
         quick_tap_ms = <175>;
         //global-quick-tap;
         //global-quick-tap-ms = <150>;         // requires PR #1387
