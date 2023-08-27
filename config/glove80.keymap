@@ -169,34 +169,34 @@
 
         layer_Lower {
             bindings = <
-       &trans         &trans          &trans          &trans           &trans                                                                      &trans &trans    &trans  &trans   &trans
-       &trans         &trans          &trans          &trans           &trans   &trans                                                      &trans &trans &trans    &trans  &trans   &trans
-       &trans         &kp Q           &kp W           &kp F            &kp P    &kp B                                                       &kp J  &kp L  &kp U     &kp Y   &kp SEMI &trans
-       &trans         &kp A           &kp R           &kp S            &kp T    &kp G                                                       &kp M  &kp N  &kp E     &kp I   &kp O    &trans
-       &trans         &kp Z           &kp X           &kp C            &kp D    &kp V    &trans  &trans   &to 0  &trans  &trans  &trans     &kp K  &kp H  &kp COMMA &kp DOT &kp FSLH &trans
-       &magic 2 0     &trans          &trans          &trans           &trans            &trans  &trans  &trans  &trans  &trans  &trans            &trans &trans    &trans  &trans   &trans
+     &trans         &trans          &trans          &trans           &trans                                                                      &trans &trans    &trans  &trans   &trans
+     &trans         &trans          &trans          &trans           &trans   &trans                                                      &trans &trans &trans    &trans  &trans   &trans
+     &trans         &kp Q           &kp W           &kp F            &kp P    &kp B                                                       &kp J  &kp L  &kp U     &kp Y   &kp SEMI &trans
+     &trans         &kp A           &kp R           &kp S            &kp T    &kp G                                                       &kp M  &kp N  &kp E     &kp I   &kp O    &trans
+     &trans         &kp Z           &kp X           &kp C            &kp D    &kp V    &trans  &trans   &to 0  &trans  &trans  &trans     &kp K  &kp H  &kp COMMA &kp DOT &kp FSLH &trans
+     &magic 2 0     &trans          &trans          &trans           &trans            &trans  &trans  &trans  &trans  &trans  &trans            &trans &trans    &trans  &trans   &trans
             >;
         };
 
         layer_Magic {
             bindings = <
-  &bt BT_CLR            &none            &none            &none            &none                                                                                  &none   &none   &none   &none  &bt BT_CLR_ALL
-       &none            &none            &none            &none            &none            &none                                                         &none   &none   &none   &none   &none           &none
-      &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                         &none   &none   &none   &none   &none           &none
- &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                         &none   &none   &none   &none   &none     &bootloader
-      &none            &none            &none            &none            &none            &none   &bt_2   &bt_3         &none   &none   &none   &none   &none   &none   &none   &none   &none          &none
-       &none            &none            &none            &none            &none                    &bt_0   &bt_1  &out OUT_USB   &none   &none   &none           &none   &none   &none   &none           &none
+     &bt BT_CLR   &none            &none            &none            &none                                                                                  &none   &none   &none   &none  &bt BT_CLR_ALL
+     &none        &none            &none            &none            &none            &none                                                         &none   &none   &none   &none   &none  &none
+     &trans       &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                               &none   &none   &none   &none   &none  &none
+     &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                               &none   &none   &none   &none   &none  &bootloader
+     &none        &none            &none            &none            &none            &none   &bt_2   &bt_3         &none   &none   &none   &none   &none   &none   &none   &none   &none  &none
+     &none        &none            &none            &none            &none                    &bt_0   &bt_1  &out OUT_USB   &none   &none   &none           &none   &none   &none   &none  &none
             >;
         };
 
         layer_hyper {
             bindings = <
-       &none            &none            &none        &none            &none                                                                                  &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &none            &none             &none                                                        &none   &none   &none   &none   &none  &none
-       &none            &none            &kp LC(LS(LA(PRCNT)))        &kp LC(LS(LA(DQT)))            &none             &none                          &kp LC(LS(LEFT))   &kp LC(LS(DOWN))   &kp LC(LS(UP))   &kp (LC(LS(RIGHT)))   &none  &none
-       &none            &kp LC(LS(Z))    &none        &kp LC(LS(C))    &kp LC(LS(V))     &none   &none  &none   &none   &none   &none   &none         &none   &none   &none   &none   &none  &none
-       &none            &none            &none        &kp LG(LC(LEFT)) &kp LG(LC(RIGHT))         &kp(LC(B))  &none  &none    &none   &none   &kp(LC(B))                 &none   &none   &none   &none  &none
+       &none            &none            &none                  &none               &none                                                                                               &none             &none           &none                &none  &none
+       &none            &none            &none                  &none               &none             &none                                                           &none             &none             &none           &none                &none  &none
+       &none            &none            &none                  &none               &none             &none                                                           &none             &none             &none           &none                &none  &none
+       &none            &none            &kp LC(LS(LA(PRCNT)))  &kp LC(LS(LA(DQT))) &none             &none                                                           &kp LC(LS(LEFT))  &kp LC(LS(DOWN))  &kp LC(LS(UP))  &kp (LC(LS(RIGHT)))  &none  &none
+       &none            &kp LC(LS(Z))    &none                  &kp LC(LS(C))       &kp LC(LS(V))     &none      &none       &none  &none  &none  &none   &none       &none             &none             &none           &none                &none  &none
+       &none            &none            &none                  &kp LG(LC(LEFT))    &kp LG(LC(RIGHT))            &kp(LC(B))  &none  &none  &none  &none   &kp(LC(B))                    &none             &none           &none                &none  &none
             >;
         };
     };
