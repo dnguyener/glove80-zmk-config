@@ -160,9 +160,9 @@
      &kp F1      &kp F2      &kp F3       &kp F4        &kp F5                                                                                           &kp F6        &kp F7         &kp F8        &kp F9           &kp F10
      &kp EQUAL   &kp N1      &kp N2       &kp N3        &kp N4         &kp N5                                                                    &kp N6  &kp N7        &kp N8         &kp N9        &kp N0           &kp MINUS
      &kp DELETE  &kp Q       &kp W        &kp E         &kp R          &kp T                                                                     &kp Y   &kp U         &kp I          &kp O         &kp P            &kp BSLH
-     &kp ESC     &kp A       &hl LGUI S   &hl LALT D    &hl LCTRL F    &kp G                                                                     &kp H   &hl RCTRL J   &hl RALT K     &sl RGUI L     &kp SEMI         &kp SQT
-     &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &sk LSHFT &sk LCTRL &sk LALT   &sk RALT   &sk RCTRL  &sk RSHFT   &kp N   &kp M         &kp COMMA      &kp DOT       &kp FSLH         &kp PG_UP
-     &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &kp BSPC  &kp TAB   &sl HYPER  &sl HYPER  &kp RET   &kp SPACE            &kp DOWN      &kp UP         &kp LBKT      &kp RBKT         &kp PG_DN
+     &kp ESC     &kp A       &hl LGUI S   &hl LALT D    &hl LCTRL F    &kp G                                                                     &kp H   &hl RCTRL J   &hl RALT K     &hl RGUI L    &kp SEMI         &kp SQT
+     &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &sk LSHFT &caps_word &lower     &none      &none     &sk RSHFT   &kp N   &kp M         &kp COMMA      &kp DOT       &kp FSLH         &kp PG_UP
+     &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &kp BSPC  &kp TAB    &sl HYPER  &sl HYPER  &kp RET   &kp SPACE            &kp DOWN      &kp UP         &kp LBKT      &kp RBKT         &kp PG_DN
             >;
         };
 
