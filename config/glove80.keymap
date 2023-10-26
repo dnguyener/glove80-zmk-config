@@ -151,9 +151,9 @@
         //hold-trigger-on-release;             // requires PR #1423
     };
 
-    &sk {
-        quick-release;
-    };
+  //  &sk {
+   //     quick-release;
+    //};
 
     /* Automatically generated keymap */
     keymap {
