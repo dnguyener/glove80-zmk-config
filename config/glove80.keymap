@@ -28,6 +28,7 @@
 #define HM_TAPPING_TERM_FAST 150
 #define LOWER 1
 #define HYPER 3
+#define SYMBOLS 4
 
 / {
     /* Glove80 system behavior & macros */
@@ -178,6 +179,16 @@
        &none            &none            &none                  &none              &none             &none                                                            &none             &none             &none           &none                &none  &none
        &none            &kp LC(LS(Z))    &none                  &kp LC(LS(C))       &kp LC(LS(V))     &none      &none    &none        &none  &none  &none   &none    &none             &none             &none           &none                &none  &none
        &none            &none            &none                  &kp LG(LC(LEFT))    &kp LG(LC(RIGHT))            &none    &kp LA(TAB)  &none  &none  &none   &kp(LC(B))                 &none             &none           &none                &none  &none
+            >;
+        };
+        layer_Symbols {
+            bindings = <
+       &none            &none            &none                  &none               &none                                                                                               &none             &none           &none                &none  &kp C_PLAY_PAUSE
+       &none            &none            &none                  &none               &none             &none                                                           &none             &none             &none           &none                &none  &kp C_NEXT
+       &none            &none            &none                  &none               &none             &none                                                           &none             &none             &none           &none                &none  &kp C_PREVIOUS
+       &none            &none            &none                  &none               &none             &none                                                           &none             &none             &none           &none                &none  &none
+       &none            &none            &none                  &none               &none             &none      &none    &none  &none  &none  &none   &none          &none             &none             &none           &none                &none  &none
+       &none            &none            &none                  &none               &none                        &none    &none  &none  &none  &none   &none                            &none             &none           &none                &none
             >;
         };
     };
