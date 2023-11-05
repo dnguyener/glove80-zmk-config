@@ -106,7 +106,7 @@
         hold-trigger-on-release; // FIXME: needs ZMK 3.2
         tapping-term-ms = <250>;
         quick-tap-ms = <160>;
-        global-quick-tap; // with typing streak
+        require-prior-idle-ms = <160>;
     };
 
     hr: home_row_mods_right_hand {
@@ -119,7 +119,7 @@
         hold-trigger-on-release; // FIXME: needs ZMK 3.2
         tapping-term-ms = <250>;
         quick-tap-ms = <160>;
-        global-quick-tap; // with typing streak
+        require-prior-idle-ms = <160>;
     };
 
     skq: sticky_key_quick_release {
