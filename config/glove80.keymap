@@ -145,7 +145,7 @@
      &kp DELETE  &kp Q       &kp W        &kp E         &kp R          &kp T                                                                        &kp Y   &kp U         &kp I          &kp O         &kp P            &kp BSLH
      &kp ESC     &kp A       &hl LGUI S   &hl LALT D    &hl LCTRL F    &kp G                                                                        &kp H   &hr RCTRL J   &hr RALT K     &hr RGUI L    &kp SEMI         &kp SQT
      &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &skq LSHFT &sl HYPER  &to 1      &none     &sl HYPER  &skq RSHFT    &kp N   &kp M         &kp COMMA      &kp DOT       &kp FSLH         &kp PG_UP
-     &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &lt SYMBOLS BSPC  &kp TAB    &caps_word &none     &kp RET    &kp SPACE             &kp DOWN      &kp UP         &kp LBKT      &kp RBKT         &kp PG_DN
+     &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &kp BSPC  &lt SYMBOLS TAB    &caps_word &none     &kp RET    &kp SPACE             &kp DOWN      &kp UP         &kp LBKT      &kp RBKT         &kp PG_DN
             >;
         };
 
