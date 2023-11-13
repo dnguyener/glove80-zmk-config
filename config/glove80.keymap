@@ -100,7 +100,7 @@
     tp: tappity_tap {
         compatible = "zmk,behavior-hold-tap";
         flavor = "balanced";
-        label = "HOME_ROW_MODS_LEFT_HAND";
+        label = "TAPPITY_TAP";
         #binding-cells = <2>;
         bindings = <&kp>, <&kp>;
         quick-tap-ms = <160>;
