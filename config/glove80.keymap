@@ -103,6 +103,7 @@
         label = "TAPPITY_TAP";
         #binding-cells = <2>;
         bindings = <&kp>, <&kp>;
+        tapping-term-ms = <250>;
         quick-tap-ms = <160>;
     };
     hl: home_row_mods_left_hand {
