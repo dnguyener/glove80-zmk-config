@@ -159,12 +159,12 @@
 
         base_layer {
             bindings = <
-     &kp F1      &kp F2      &kp F3       &kp F4        &kp F5                                                                                                   &kp F6  &kp F7        &kp F8        &kp F9         &kp F10
+     &kp F1      &kp F2      &kp F3       &kp F4        &kp F5                                                                                                   &kp F6  &kp F7        &kp F8        &kp F9        &kp F10
      &kp EQUAL   &kp N1      &kp N2       &kp N3        &kp N4         &kp N5                                                                                    &kp N6  &kp N7        &kp N8        &kp N9        &kp N0           &kp MINUS
      &kp DELETE  &kp Q       &kp W        &kp E         &kp R          &kp T                                                                                     &kp Y   &kp U         &kp I         &kp O         &kp P            &kp BSLH
-     &kp ESC     &kp A       &kp S        &kp D         &kp F          &kp G                                                                                     &kp H   &kp J         &kp K         &kp L         &kp SEMI         &kp SQT
-     &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &skq LSHFT     &mo_sl 4 3   &to 1      &none     &mo_sl 4 3    &skq RSHFT      &kp N   &kp M         &kp COMMA     &kp DOT        &kp FSLH         &kp PG_UP
-     &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &tp LALT BSPC  &tp LCTRL TAB &kp LGUI   &kp RGUI  &tp RCTRL RET  &tp RALT SPACE          &kp DOWN      &kp UP        &kp LBKT       &kp RBKT         &kp PG_DN
+     &kp ESC     &kp A       &hl LGUI S   &hl LALT D    &hl LCTRL F    &kp G                                                                                     &kp H   &hr RCTRL J   &hr RALT K    &hr RGUI L    &kp SEMI         &kp SQT
+     &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &skq LSHFT     &mo_sl 4 3   &to 1      &none     &mo_sl 4 3    &skq RSHFT      &kp N   &kp M         &kp COMMA     &kp DOT         &kp FSLH         &kp PG_UP
+     &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &tp LALT BSPC  &tp LCTRL TAB &kp LGUI   &kp RGUI  &tp RCTRL RET  &tp RALT SPACE          &kp DOWN      &kp UP        &kp LBKT      &kp RBKT         &kp PG_DN
             >;
         };
 
