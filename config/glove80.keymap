@@ -166,7 +166,6 @@
      &kp ESC     &kp A       &hl LGUI S   &hl LALT D    &hl LCTRL F    &kp G                                                                             &kp H     &hr RCTRL J   &hr RALT K    &hr RGUI L    &kp SEMI         &kp SQT
      &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &skq LSHFT  &sl 3   &to 1      &none   &sl 3      &skq RSHFT             &kp N     &kp M         &kp COMMA     &kp DOT       &kp FSLH         &kp PG_UP
      &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &tp 1 BSPC  &sl 4   &kp DELETE &none   &tp 4 RET  &tp 1 SPACE            &kp DOWN  &kp UP        &kp LBKT      &kp RBKT      &kp PG_DN
-     c
             >;
         };
 
