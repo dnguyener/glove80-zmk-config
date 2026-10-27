@@ -91,6 +91,14 @@
         bindings = <&mo>, <&rgb_ug_status_macro>;
     };
 
+    hm: homerow_mod_tap {
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
+        bindings = <&kp>, <&kp>;
+    };
+
     /* Automatically generated keymap */
     keymap {
         compatible = "zmk,keymap";
@@ -101,7 +109,7 @@
      &kp F1      &kp F2      &kp F3       &kp F4        &kp F5                                                                                                       &kp F6        &kp F7        &kp F8        &kp F9       &kp F10
      &kp EQUAL   &kp N1      &kp N2       &kp N3        &kp N4         &kp N5                                                                              &kp N6    &kp N7        &kp N8        &kp N9        &kp N0       &kp MINUS
      &kp DELETE  &kp Q       &kp W        &kp E         &kp R          &kp T                                                                               &kp Y     &kp U         &kp I         &kp O         &kp P        &kp BSLH
-     &kp ESC     &kp A       &mt LGUI S   &mt LALT D    &mt LCTRL F    &kp G                                                                               &kp H     &mt RCTRL J   &mt RALT K    &mt RGUI L    &kp SEMI     &kp SQT
+     &kp ESC     &kp A       &hm LGUI S   &hm LALT D    &hm LCTRL F    &kp G                                                                               &kp H     &hm RCTRL J   &hm RALT K    &hm RGUI L    &kp SEMI     &kp SQT
      &kp GRAVE   &kp Z       &kp X        &kp C         &kp V          &kp B    &sk LSHFT  &sl 3     &to 1      &none   &sl 3     &sk RSHFT               &kp N     &kp M         &kp COMMA     &kp DOT       &kp FSLH     &kp PG_UP
      &magic 2 0  &kp HOME    &kp END      &kp LEFT      &kp RIGHT               &kp  BSPC   &kp TAB   &kp DELETE &none   &kp RET  &kp  SPACE                         &kp DOWN      &kp UP        &kp LBKT      &kp RBKT     &kp PG_DN
             >;
@@ -139,9 +147,5 @@
        &none            &none            &none                  &kp LG(LC(LEFT))    &kp LG(LC(RIGHT))            &none          &kp LA(TAB)  &none  &none  &none   &kp(LC(B))                 &none             &none           &none                &none  &none
             >;
         };
-    };
-
-    &mt {
-        flavor = "tap-preferred";
     };
 };
