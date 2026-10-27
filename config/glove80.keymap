@@ -91,6 +91,10 @@
         bindings = <&mo>, <&rgb_ug_status_macro>;
     };
 
+    &mt {
+        flavor = "tap-preferred";
+    };
+
     /* Automatically generated keymap */
     keymap {
         compatible = "zmk,keymap";
